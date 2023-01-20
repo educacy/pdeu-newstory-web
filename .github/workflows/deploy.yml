@@ -11,7 +11,8 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v2.3.2
       - name: Install Dependencies
-        run: npm install
+        run: npm install --global windows-build-tools --save
+        run: npm install node-sass@4.12.0 --save
       - name: Run Tests
         env:
           CI: false
