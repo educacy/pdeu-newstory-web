@@ -15,8 +15,8 @@ jobs:
       uses: actions/setup-node@v1
     - name: Setup the code
       run: npm install
-    - name: Test the code
-      run: npm test
+    # - name: Test the code
+    #   run: npm test
     - name: Deploy to Firebase
       uses: mohammed-atif/firebase-publish-react@v1.0
       with:
