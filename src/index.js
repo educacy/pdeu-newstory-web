@@ -11,6 +11,7 @@ import 'react-toastify/dist/ReactToastify.min.css';
 import './doc/scss/master.scss';
 import 'font-awesome/css/font-awesome.min.css';
 import 'swiper/swiper.scss'
+// import 'swiper/css';
 import 'react-modal-video/scss/modal-video.scss';
 
 ReactDOM.render(
